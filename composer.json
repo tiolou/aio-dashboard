@@ -1,0 +1,19 @@
+{
+    "name": "tiolou/aio-dashboard",
+    "description": "Facebook module for AIO Dashboard Wordpress plugin",
+    "require": {
+        "ext-curl": "*",
+        "php": ">=7.4"
+    },
+    "license": "CC-BY-ND-4.0",
+    "autoload": {
+        "psr-4": {
+            "TioLou\\AIODashboard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tio Lou"
+        }
+    ]
+}
